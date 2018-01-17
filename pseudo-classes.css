@@ -1,0 +1,14 @@
+li {
+    text-decoration: none;
+    display: inline;
+}
+
+span {
+    display: block;
+    border: 1px solid blue;
+    margin: 25px;
+}
+
+article.n-child section:nth-child(even) {
+    border: 1px solid blueviolet;
+}
